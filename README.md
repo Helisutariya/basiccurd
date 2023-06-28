@@ -66,3 +66,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 "# basecrud" 
 "# basecrud" 
+
+<--validation of javascript-->
+function validation(argument) {
+		var username=document.regfo.u_name.value;
+if(username==0)
+{
+alert("enter username");
+return false;
+}
+
+var password=document.regfo.passw.value;
+if(password=="")
+{
+document.getElementById("p1").innerHTML="*Enter password";
+return false;
+}
+else
+{
+document.getElementById("p1").innerHTML="";
+}
