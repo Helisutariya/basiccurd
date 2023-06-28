@@ -86,3 +86,6 @@ else
 {
 document.getElementById("p1").innerHTML="";
 }
+responsive
+width 100%
+height 
